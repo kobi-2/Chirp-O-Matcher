@@ -9,7 +9,7 @@ function [fingerprint] = generate_fingerprint(wav_file, save_file)
 music_name = wav_file(1:end-4);
 
 if nargin == 1   % if the number of inputs equals 2
-  save_file = true % then save the generating files
+  save_file = true; % then save the generating files
 end
 
 

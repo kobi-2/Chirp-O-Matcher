@@ -47,6 +47,6 @@ for i=1:num_bins
 	end
 end
 
-% Return the name of the matching bird
+% Return the name of the matching song
 name = names(find(matches==max(matches)));
 
